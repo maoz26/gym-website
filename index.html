@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html  dir=rtl>
+<head>
+	<title>	Main Page</title>
+  	<meta content="width=320px, initial-scale=1, user-scalable=yes" name="viewport" charset="utf-8"/>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script language="JavaScript" src="menu.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">    
+</head>
+
+<body style="background-color: black; font-family: arial; overflow-y:scroll;" onLoad="menu_bar()">
+	<div id="wrapper">
+		<div>
+			<div id ="logo">
+				<img src="logo.jpg">
+			</div>
+			<div id="upper_menu">
+				<script>document.write(menu) </script>	
+			</div>
+		</div>
+		<div id="main_frame">
+    		<div id="sidebar">
+				<ul dir=rtl id=side></ul>
+			</div>	
+    		<div id="workspace">
+    			<div id="photo" >
+    				<h2>לקבלת מידע נוסף לחץ על שם השריר</h2>
+	    			<img id="full_body_map" src= "body_map.jpg" border="0" width="472" height="590" orgWidth="472" orgHeight="590" usemap="#body-map" alt="" class="muscle_map" / >
+						<map name="body-map" id="full_body_map">
+							<area  alt="" title="לסת" href="javascript:message();" shape="rect" coords="29,5,124,30" style="outline:none;" target="_self"     />
+							<area  alt="" title="חזה" shape="rect" coords="43,60,125,86" style="outline:none;" target="_self"  <a class="show-popup" href="#" data-showpopup="3" </a>     />
+							<area  alt="" title="יד קדמית" shape="rect" coords="6,131,80,159" style="outline:none;" target="_self" <a class="show-popup" href="#" data-showpopup="4" </a>     />
+							<area  alt="" title="בטן" shape="rect" coords="2,349,106,376" style="outline:none;" target="_self"  <a class="show-popup" href="#" data-showpopup="6" </a>      />
+							<area  alt="" title="ארבע ראשי" shape="rect" coords="9,425,105,452" style="outline:none;" target="_self" <a class="show-popup" href="#" data-showpopup="7" </a>    />
+							<area  alt="" title="תאומים" shape="rect" coords="385,480,472,505" style="outline:none;" target="_self"  <a class="show-popup" href="#" data-showpopup="9" </a>     />
+							<area  alt="" title="חבליים" shape="rect" coords="382,387,465,414" style="outline:none;" target="_self"  <a class="show-popup" href="#" data-showpopup="8" </a>    />
+							<area  alt="" title="כתף" shape="rect" coords="220,29,303,56" style="outline:none;" target="_self"  <a class="show-popup" href="#" data-showpopup="2" </a>     />
+							<area  alt="" title="טרפזים" shape="rect" coords="396,90,472,117" style="outline:none;" target="_self"   <a class="show-popup" href="#" data-showpopup="1" </a>  />
+							<area  alt="" title="יד אחורית" shape="rect" coords="407,156,472,183" style="outline:none;" target="_self" <a class="show-popup" href="#" data-showpopup="5" </a>     />
+							<area shape="rect" coords="470,588,472,590" alt="Image Map" style="outline:none;" title="Image Map" href="http://www.image-maps.com/index.php?aff=mapped_users_0" />
+						</map>
+				</div>
+				<div class="overlay-bg" >
+				    <div class="overlay-content popup1">
+				        <h3>	שריר הטרפז: </h3>
+						<p>
+						שריר הטרפז כולו מבצע קירוב שכמות. חלקו העליון מבצע הרמת שכמות בלבד, חלקו התחתון מבצע הורדת שכמות בלבד
+						וחלקו האמצעי תורם לקרוב השכמות בלבד
+							<br><br>
+						<h4>	דוגמאות לתרגילי טרפז אופציונאלים:</h4>
+								הרמת שכמות עם משקולות יד<br>
+								קירוב שכמות במכונת החתירה<br>
+								הרמת שכמות כנגד מוט חופשי<br>
+								*ניתן להפעיל את הטרפז גם בצורה לא ייעודית על ידי תרגילים מורכבים כגון מתח ושאר תרגילי הגב כמו חתירות
+						<br><br>
+						</p>
+				        <button class="close-btn">חזרה</button>
+				    </div>
+				    <div class="overlay-content popup2">
+				    	<h3>	שריר הכתף: </h3>
+						<p>
+						השריר כולו מחזיק את הכתף.
+						הכתף הקדמית מבצעת כפיפה, רוטציה מדיאלית של הכתף, וקרוב אופקי. הכתף האחורית מבצעת פשיטה, רוטציה לטרלית של הכתף והרחקת אופקית.
+						הכתף האמצעית תורמת להרחקה בלבד.
+						<br><br>
+						<h4>	דוגמאות לתרגילי כתף אופציונאלים: </h4>
+						לחיצת כתפיים כנגד מוט אולימפי<br>
+						הרחקת כתפיים כנגד משקולות יד<br>
+						כפיפת כתף כנגד משקולות יד<br><br>
+						</p>
+				        <button class="close-btn">חזרה</button>
+				    </div>
+				    <div class="overlay-content popup3">
+				    	<h3>	שריר החזה:</h3>
+						<p>
+						השריר מחולק לשלושה חלקים: חזה עליון, חזה אמצעי, וחזה תחתון <br>
+						השריר כולו מבצע קירוב אופקי, ורוטציה מדיאלית של הכתף <br>
+						חלקו העליון של שריר החזה מבצע כפיפה, ואילו חלקו התחתון של החזה מבצע את תנועות הפשיטה והקירוב
+						<br><br>
+						<h4>דוגמאות לתרגילי חזה אופציונאלים:</h4>
+						לחיצת חזה כנגד מוט חופשי<br>
+						פרפר במכונה ייעודית<br>
+						פול-אובר באחיזה צרה כנגד משקולת יד<br><br>
+						</p>
+				        <button class="close-btn">חזרה</button>
+				    </div>
+				    <div class="overlay-content popup4">
+				    	<h3>יד קדמית:</h3>
+						<p>
+						השריר מתחלק ל2 ראשים: הראש הקצר והראש הארוך ועל כן שמו כן הוא <br>
+						שריר היד קדמית אחראי על כפיפה וסופינציה של המפרק, וכן על ייצוב הכתף <br>
+						<br><br>
+						<h4>דוגמאות לתרגילים ליד קדמית:</h4>
+						כפיפת מרפק כנגד כבל תחתון<br>
+						כפיפת מרפק אחיזת ״פטישים״<br>
+						כפיפת מרפק כנגד מוט w<br><br>
+						</p>
+				        <button class="close-btn">חזרה</button>
+				    </div>
+				    <div class="overlay-content popup5">
+				    	<h3>יד אחורית:</h3>
+						<p>
+						השריר מתחלק ל-3 ראשים: הראש החיצוני, הראש האמצעי והראש הארוך <br>
+						אחריות השריר היא לבצע פשיטת מרפק כאשר הראש הארוך עצמו מסייע גם בפשיטת כתף
+						<br><br>
+						<h4>דוגמאות לתרגילי יד אחורית:</h4>
+						לחיצה צרפתית<br>
+						לחיצת חזה אחיזה צרה<br>
+						פשיטת מרפק כנגד פולי עליון באמצעות חבל<br><br>
+						</p>
+				        <button class="close-btn">חזרה</button>
+				    </div>
+				    <div class="overlay-content popup6">
+				    	<h3>שרירי הבטן</h3>
+						<p>
+						קבוצת שרירי הבטן מתחלקת ל-4 שרירים: האלכסונים-הפנימיים והחיצונים, הרחב בטני, ושריר הקוביות <br>
+						שרירי האלכסונים אחראים על רוטציה של הגו לאותו כיוון ובנוסף לכפיפה של הגו וסיבוב האגן לאחור. <br>
+						שריר הרחב בטני אחראי על יצירת לחץ תוך בטני שפועל להשטחת הבטן ויצירת איזון בגוף.
+						ואילו שריר הקוביות אחראי בעיקר על כפיפת הגו וסיבוב האגן לאחור.
+						<br><br>
+						<h4>תרגיל בטן אפשריים: </h4>
+						כפיפות בטן בתוספת משקל<br>
+						קימה משכיבה לישיבה.<br>
+						עמידת ״נר״<br><br>
+						</p>
+				        <button class="close-btn">חזרה</button>
+				    </div>
+				    <div class="overlay-content popup7">
+				    	<h3>שריר הארבע ראשי:</h3>
+						<p>
+						השריר כולו מבצע פשיטת ברך <br>
+						חלקו הגדול מסייע גם בכפיפת הירך ולכן מורגש לפעמים בתרגילי הבטן. <br>
+						<br><br>
+						<h4> דוגמאות לתרגילים לארבע ראשי:</h4>
+						לחיצת רגליים כנגד מכונה ייעודית<br>
+						סקוואט<br>
+						מכרעים<br><br>
+						</p>
+				        <button class="close-btn">חזרה</button>
+				    </div>
+				    <div class="overlay-content popup8">
+				    	<h3>קבוצת שרירי החבליים:</h3>
+						<p>
+						בקבוצה זו שלושה שרירים: biceps femoris, semimembranosus, semitendinosus <br>
+						שרירים אלו אחראים בעיקר על כפיפת הברך אך גם מסייעים בפשיטת הירך
+						<br><br>
+						<h4>תרגילים לשרירי הירך האחורית:</h4>
+						stiff-leg deadlift<br>
+						כפיפת ברך כנגד מכונה ייעודית<br>
+						romanian deadlift<br><br>
+						</p>
+				        <button class="close-btn">חזרה</button>
+				    </div>
+				    <div class="overlay-content popup9">
+				    	<h3>שריר התאומים:</h3>
+						<p>
+						שריר התאומים אחראי בעיקר על הרמת העקבים, מסייע גם בכפיפת הברך.
+						<br><br>
+						<h5> כל תרגיל שיערב הרמת עקבים יגרום לפעילותו של שריר זה </h5>
+						<br>
+						</p>
+				        <button class="close-btn">חזרה</button>
+				    </div>
+				</div>	
+    		</div>
+		</div>
+ 		<div style="clear: both"></div>
+ 		<div id="footer">
+			<h1>Designed by Maoz Tamir</h1>
+		</div>
+	</div>
+</body>
+
+</html>     

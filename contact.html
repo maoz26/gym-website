@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html  dir=rtl>
+<head>
+	<title>contact</title>
+  	<meta content="width=320px, initial-scale=1, user-scalable=yes" name="viewport" charset="utf-8"/>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script language="JavaScript" src="menu.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">    
+</head>
+
+<body style="background-color: black; font-family: arial; overflow-y:scroll;" onLoad="menu_bar()">
+	<div id="wrapper">
+		<div>
+			<div id ="logo">
+				<img src="logo.jpg">
+			</div>
+			<div id="upper_menu">
+				<script>document.write(menu) </script>	
+			</div>
+		</div>
+		<div id="main_frame">
+    		<div id="sidebar">
+				<ul dir=rtl id=side></ul>
+			</div>	
+    		<div id="workspace">
+				<div id="contact_us" >
+					<h1>צור קשר </h1>
+					<br>
+					<div id="minicontact" >
+						<form action="send.php" method="POST">
+							<br>
+							<label for="first">שם: </label>
+							<input type="text" class="inp" name="name" id="first">
+							<br>
+		
+							<label for="first">נושא הפנייה</label>
+							<select name="room">
+								<option>
+								<option>בירור לגבי תוכנית אימונים מותאמת אישית
+								<option>ייעוץ לגבי תוכנית קיימת
+								<option>תקלה באתר
+								<option>אחר
+							</select>
+							<br>
+							<br>
+							<label for="first">תיבת טקסט חופשי</label>
+							<br>
+		
+							<textarea style="width : 400px ; height : 100px" name="comment"></textarea>
+							<br>
+		
+							<input type="submit" value="שלח">
+						</form>
+					</div>
+					<br>
+				</div>	
+    		</div>
+		</div>
+ 		<div style="clear: both"></div>
+ 		<div id="footer">
+			<h1>Designed by Maoz Tamir</h1>
+		</div>
+	</div>
+</body>
+
+</html>     
